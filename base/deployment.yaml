@@ -15,7 +15,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: alexmt/argocd-demo:f27903964ba8e31ad89c31379e300a35fe1632a3
+      - image: 10.1.3.94:5000/demo:8b016d8fb1352bfae6f655a3fc266dbc0714a8ca
         name: demo
         ports:
         - containerPort: 8080
